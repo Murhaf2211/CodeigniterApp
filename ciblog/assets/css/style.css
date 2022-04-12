@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.post-time {
+	background-color:whitesmoke;
+	color: blue;
+	font-size: 0.7vw;
+	padding: 1px 3px;
+
+}
+h2{
+	text-align: center;
+	padding-top: 1vw;
+
+}
+.about-section{
+	padding: 50px;
+}
+.bgimg {
+		  background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+		  min-height: 100%;
+		  background-position: center;
+		  background-size: cover;
+		}
+.bgimg-post {
+		  background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+		  background-size: cover;
+		  background-position: center;
+		}
